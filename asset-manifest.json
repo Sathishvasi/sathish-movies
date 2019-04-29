@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fed3dff6.chunk.css",
-    "main.js": "/static/js/main.f8d1450f.chunk.js",
-    "main.js.map": "/static/js/main.f8d1450f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a5bc06e4.chunk.js": "/static/js/2.a5bc06e4.chunk.js",
-    "static/js/2.a5bc06e4.chunk.js.map": "/static/js/2.a5bc06e4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.53b04003759226b343151e9e9c4809cb.js": "/precache-manifest.53b04003759226b343151e9e9c4809cb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fed3dff6.chunk.css.map": "/static/css/main.fed3dff6.chunk.css.map",
-    "static/media/New.css": "/static/media/background.955b7014.jpg",
-    "static/media/mickey.png": "/static/media/mickey.71c11d61.png",
-    "static/media/no-result.png": "/static/media/no-result.135b6967.png",
-    "static/media/welcome.png": "/static/media/welcome.7e5435fe.png"
+    "main.css": "static/css/main.fed3dff6.chunk.css",
+    "main.js": "static/js/main.f8d1450f.chunk.js",
+    "main.js.map": "static/js/main.f8d1450f.chunk.js.map",
+    "runtime~main.js": "static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.a5bc06e4.chunk.js": "static/js/2.a5bc06e4.chunk.js",
+    "static/js/2.a5bc06e4.chunk.js.map": "static/js/2.a5bc06e4.chunk.js.map",
+    "index.html": "index.html",
+    "precache-manifest.53b04003759226b343151e9e9c4809cb.js": "precache-manifest.53b04003759226b343151e9e9c4809cb.js",
+    "service-worker.js": "service-worker.js",
+    "static/css/main.fed3dff6.chunk.css.map": "static/css/main.fed3dff6.chunk.css.map",
+    "static/media/New.css": "static/media/background.955b7014.jpg",
+    "static/media/mickey.png": "static/media/mickey.71c11d61.png",
+    "static/media/no-result.png": "static/media/no-result.135b6967.png",
+    "static/media/welcome.png": "static/media/welcome.7e5435fe.png"
   }
 }
