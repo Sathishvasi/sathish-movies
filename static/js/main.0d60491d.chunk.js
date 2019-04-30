@@ -7,17 +7,17 @@
         28: function (e, t, a) {},
         29: function (e, t, a) {},
         38: function (e, t, a) {
-            e.exports = a.p + "sathish-movies/static/media/welcome.7e5435fe.png"
+            e.exports = a.p + "/sathish-movies/static/media/welcome.7e5435fe.png"
         },
         39: function (e, t, a) {},
         40: function (e, t, a) {
-            e.exports = a.p + "sathish-movies/static/media/mickey.71c11d61.png"
+            e.exports = a.p + "/sathish-movies/static/media/mickey.71c11d61.png"
         },
         41: function (e, t) {
             e.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALcAAAETCAMAAABDSmfhAAAAIVBMVEXy8vLZ2dna2tre3t7h4eHw8PD09PTs7Ozm5ubj4+Pp6emhOneKAAAD3ElEQVR4nO3b2XKjMBBGYRYjlvd/4GERkpCMaewptZg531WccioNRp1fDakqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANUa7gC+NvXlg6aav63aoHle6edWLV/+wwrum3rSPKtwMtux6fFTdVbvX3dlvPONK7+voMjHD8IDOaMa97mkvtlkXaeml76uytq/NtL5qhq7k0m2Vwaq0bXHtjOVeL8avSltjV3vNWOpJ91W224Xh26L99lTiST9WuaxG/wH4k17eIjVNVOPQx2Vvn0VZTd28rfKtohap7x0CbTmdsbuu9njSy1ikce8QmDujdtVVEKmSJnKugLQbRKpubD4VGxjU6z5EKlP1spPuf1ztAI6RyphO0F5ee4wZtTrjp0h1rg9ijE5nNMlGR9AWG7e52F7P8SU3V2W7H4igLbpVmRx0Lu83Olf2CyPZ3eWr21VpF5gsrGxvfnPQucoOq1w3ZdKwsmwmkt1dvrqjKucFJit7fbM73dlnLncj1Ynsq/J+pHqnvf5Nf9mNJPWB6qr8XqPXvO9UOcQf0iv7X3nfxwZpgF2q7I9dKPfIPIxUxvTCxt2v2TU46U3equNIdSzmlI1Uxl9j2bcQPlJF8e6Tx0Yq+8OKkcp99Ekt5/xGJznoXGX/tNHxH0320+0u0Ncep6/Lng9ym9cmB51NGKmWMbGRhpV26ky6u8slqnIZE4vDSjO6051//pNU+VXGIlIJ674zOz6XPVJ14hz1kV6kuiNdEnmrDpv3JB7Bzr2jj96sGalMNwk7yTD3+OrwZt1INZcu2vhsPxrMa/Uilbsd/x9Eqq6ASBXOsS+4eW0Bkeqb2XEJkWq0ATa+0f32fNu73MnuLp8mLkYYVtYnDsqYHW+jbPH8pxnc5iL/+CHuHe1X0838q/J/ilSJp86O9SLVb/Qi1XjjxFdxZsw/O95/c1PJH394zX27O4yaNWfHy78GyKbHa5XhmxvFSLW9NpLb8W8POquHRqrKLTBXi3x2rBmplgtjva3wqNmx/f3zAruz0dnntX5grlH1WoE/X9dlL9fF8viD4qpMiG90L48/RK1Ite47jwy6L7SrnsmfGPT0nx2slkU63R3NlvCMaeU7o1T+SHVKmlNWRf0H2+ld7j5+4iB7pLpikjFxvc5roycOiliVEZPsDwYTL4BCVmXERJuJPcZoRiqhcJGWEqlk/KbMVelWpWph17bVWMBG5765M6YbHf1IJeDibrK7ewbFZ6l+4i6T7Lfjf7T/ySwoUsnY+FJUpBJa4ot2DV964NkGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/jj9cXSDEl6hGSAAAAABJRU5ErkJggg=="
         },
         42: function (e, t, a) {
-            e.exports = a.p + "sathish-movies/static/media/no-result.135b6967.png"
+            e.exports = a.p + "/sathish-movies/static/media/no-result.135b6967.png"
         },
         43: function (e, t, a) {
             "use strict";
@@ -25,22 +25,26 @@
             var n = a(0),
                 l = a.n(n),
                 i = a(19),
-                s = a.n(i),
-                o = (a(27), a(28), a(10)),
-                c = a(5),
-                r = a(7),
+                o = a.n(i),
+                s = (a(27), a(6)),
+                c = a(7),
+                r = a(9),
                 m = a(8),
-                u = a(11),
-                h = a(9),
-                v = a(12),
-                p = (a(29), function (e) {
+                u = a(10),
+                h = (a(28), a(12)),
+                v = a(5),
+                d = (a(29), function (e) {
                     function t(e) {
                         var a;
-                        return Object(r.a)(this, t), (a = Object(u.a)(this, Object(h.a)(t).call(this, e))).state = {
-                            showRedirection: !1
+                        return Object(s.a)(this, t), a = Object(r.a)(this, Object(m.a)(t).call(this, e)), localStorage.getItem("visited") > 0 ? localStorage.setItem("visited", JSON.parse(localStorage.getItem("visited")) + 1) : localStorage.setItem("visited", 1), a.state = {
+                            showRedirection: !1,
+                            visited: localStorage.getItem("visited")
                         }, a
                     }
-                    return Object(v.a)(t, e), Object(m.a)(t, [{
+                    return Object(u.a)(t, e), Object(c.a)(t, [{
+                        key: "componentDidMount",
+                        value: function () {}
+                    }, {
                         key: "showRedirection",
                         value: function () {
                             this.setState({
@@ -66,19 +70,21 @@
                                 className: "redirection"
                             }, l.a.createElement("button", {
                                 className: "app-button"
-                            }, l.a.createElement(o.b, {
+                            }, l.a.createElement(h.b, {
                                 to: "/home"
                             }, "Click here")), l.a.createElement("img", {
                                 src: a(38),
                                 alt: "Welcome"
-                            })) : null)
+                            })) : null, this.state.visited > 1 ? l.a.createElement(v.a, {
+                                to: "/home"
+                            }) : null)
                         }
                     }]), t
                 }(l.a.Component)),
-                A = (a(39), function (e) {
+                p = (a(39), function (e) {
                     function t() {
                         var e;
-                        return Object(r.a)(this, t), (e = Object(u.a)(this, Object(h.a)(t).call(this))).state = {
+                        return Object(s.a)(this, t), (e = Object(r.a)(this, Object(m.a)(t).call(this))).state = {
                             movie: [],
                             inputVal: "",
                             notfound: !1,
@@ -87,7 +93,7 @@
                             rating: ""
                         }, e
                     }
-                    return Object(v.a)(t, e), Object(m.a)(t, [{
+                    return Object(u.a)(t, e), Object(c.a)(t, [{
                         key: "componentDidMount",
                         value: function () {
                             this.nameInput.focus()
@@ -101,14 +107,13 @@
                             }), fetch("https://www.omdbapi.com/?t=" + this.state.inputVal + "&apikey=BanMePlz").then(function (e) {
                                 return e.json()
                             }).then(function (e) {
-                                console.log(e);
                                 var a = "False" === e.Response;
                                 t.setState({
                                     movie: e,
                                     notfound: a,
                                     showLoader: "",
                                     hide: "hide"
-                                }), t.setState({
+                                }), t.state.movie.Error || t.setState({
                                     rating: t.state.movie.Ratings[0].Value
                                 })
                             }).catch(function (e) {
@@ -194,20 +199,28 @@
                             }) : null)
                         }
                     }]), t
-                }(l.a.Component));
-            var d = function () {
-                return l.a.createElement(o.a, null, l.a.createElement(c.c, null, l.a.createElement(c.a, {
-                    exact: !0,
-                    path: "/",
-                    component: p
-                }), l.a.createElement(c.a, {
-                    exact: !0,
-                    path: "/home",
-                    component: A
-                })))
-            };
+                }(l.a.Component)),
+                A = function (e) {
+                    function t(e) {
+                        return Object(s.a)(this, t), Object(r.a)(this, Object(m.a)(t).call(this, e))
+                    }
+                    return Object(u.a)(t, e), Object(c.a)(t, [{
+                        key: "render",
+                        value: function () {
+                            return l.a.createElement(h.a, null, l.a.createElement(v.d, null, l.a.createElement(v.b, {
+                                exact: !0,
+                                path: "/",
+                                component: d
+                            }), l.a.createElement(v.b, {
+                                exact: !0,
+                                path: "/home",
+                                component: p
+                            })))
+                        }
+                    }]), t
+                }(l.a.Component);
             Boolean("localhost" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
-            s.a.render(l.a.createElement(d, null), document.getElementById("root")), "serviceWorker" in navigator && navigator.serviceWorker.ready.then(function (e) {
+            o.a.render(l.a.createElement(A, null), document.getElementById("root")), "serviceWorker" in navigator && navigator.serviceWorker.ready.then(function (e) {
                 e.unregister()
             })
         }
@@ -216,4 +229,4 @@
         [22, 1, 2]
     ]
 ]);
-//# sourceMappingURL=main.892f7416.chunk.js.map
+//# sourceMappingURL=main.0d60491d.chunk.js.map
